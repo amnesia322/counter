@@ -2,7 +2,7 @@ import React from 'react';
 
 type CounterButtonType = {
     name: string
-    callBack: ()=> void
+    callBack: (min?: number, max?: number)=> void
     disabled?: boolean
 }
 
